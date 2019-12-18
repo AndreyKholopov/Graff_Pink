@@ -1,0 +1,58 @@
+*{
+	box-sizing: border-box;
+}
+
+a{
+	color: #000;
+	text-decoration: none;
+	display: inline-block;
+}
+
+body{
+	font-weight: 300;
+	font-family: 'Lato', sans-serif;
+	line-height: 22px;
+	color: #636363;
+	font-size: 15px;
+}
+
+.container{
+	max-width: 1024px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.header {
+	background-color: rgba(255,255,255,0.9);
+}
+
+.header__inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 89px;
+}
+
+.menu__list {
+	display: flex;
+}
+
+.menu__list li{
+	margin-left: 35px;
+}
+
+.menu__list a{
+	font-size: 17px;
+	color: #454545;
+	font-weight: 400;
+}
+
+.login__btn{
+	width: 87px;
+	height: 27px;
+	border-radius: 3px;
+	background-color: #de6d6e;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
