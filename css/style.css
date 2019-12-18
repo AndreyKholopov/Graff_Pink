@@ -23,6 +23,8 @@ body{
 }
 
 .header {
+	position: fixed;
+	width: 100%;
 	background-color: rgba(255,255,255,0.9);
 }
 
@@ -56,3 +58,34 @@ body{
 	justify-content: center;
 	align-items: center;
 }
+
+.top{
+	background-image: url(../images/bg_top.png);
+	background-size: cover;
+}
+
+.top__inner{	
+	padding-top: 411px;
+	padding-bottom: 88px;
+	display: flex;
+	justify-content: center;
+}
+
+.top-info{
+	text-align: center;
+}
+
+.top-info__title {
+	font-size: 69px;
+	font-weight: 900;
+	line-height: 80px;
+	color: #fff
+}
+
+.top-info__descr {
+	font-size: 25px;
+	font-weight: 400;
+	line-height: 30px;
+	color: #fff
+}
+
