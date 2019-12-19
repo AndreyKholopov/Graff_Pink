@@ -35,6 +35,17 @@ body{
 	height: 89px;
 }
 
+.btn__menu{
+	width: 40px;
+	display: none;
+}
+
+.btn__menu div{
+	height: 5px;
+	background-color: #000;
+	margin-bottom: 5px;
+}
+
 .menu__list {
 	display: flex;
 }
@@ -88,13 +99,11 @@ body{
 }
 
 .descr {
-	display: flex;
-	justify-content: center;
-	text-align: center;
 	height: 550px;
 }
 
 .descr__title {
+	text-align: center;
 	font-size: 35px;
 	line-height: 36px;
 	color: #404040;
@@ -103,8 +112,13 @@ body{
 }
 
 .descr__text {
+	text-align: center;
 	font-size: 17px;
 	color: #636363
+}
+
+.descr-slider__box{
+	display: flex;
 }
 
 .descr-slider {

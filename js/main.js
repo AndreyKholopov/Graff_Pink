@@ -7,13 +7,17 @@ $(function () {
 		arrows: false,
 		dots: true,  
 		responsive: [
-		// {
-		// 	breakpoint: 1036,
-		// 	settings: {
-		// 		slidesToShow: 1,
-		// 		slidesToScroll: 1,
-		// 	}
-		// },
+		{
+			breakpoint: 670,
+			settings: {
+				slidesToShow: 2,
+			}
+		},
 		]
 	});
+
+	$('.btn__menu').on('click', function(){
+		$('.menu__list').slideToggle();
+	});
+
 });
