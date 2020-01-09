@@ -1,3 +1,10 @@
+//form
+function show(state){
+	document.getElementById('gray').style.display = state;
+	document.getElementById('form').style.display = state;
+}
+
+//slider
 $(function () {
 
 	$('.descr-slider').slick({

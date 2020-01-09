@@ -62,11 +62,86 @@ body{
 .login__btn{
 	width: 87px;
 	height: 27px;
+	border: 1px solid #de6d6e;
 	border-radius: 3px;
 	background-color: #de6d6e;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	cursor: pointer;
+}
+
+.login__btn:hover{
+	background: #ce5d5e;
+}
+
+#gray{
+	background: rgba(4,4,4, 0.75);
+	position: fixed;
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	display: none;
+	z-index: 9;
+}
+
+#form{
+	width: 300px;
+	height: 300px;
+	margin: 40px auto;
+	background: #fff;
+	border: 3px solid #de6d6e;
+	border-radius: 15px;
+	z-index: 11;
+	display: none;
+	position: fixed;
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: 0;
+}
+
+.close-btn{
+	cursor: pointer;
+	margin: 12px 0 0 266px;
+}
+
+.btn-line {
+  width: 28px;
+  height: 2px;
+  margin: 0 0 5px 0;
+  background: #000;
+}
+
+.btn-line:nth-child(1) {
+  transform: rotate(45deg) translate(0px, 5px);
+}
+
+.btn-line:nth-child(2) {
+  transform: rotate(-45deg) translate(0px, -5px);
+}
+
+.form__inner{
+	width: 250px;
+	margin: 0px auto 20px auto;
+	text-align: center;
+}
+
+.form__inner h3{
+	margin-top: 12px;
+	margin-bottom: 20px;
+	font-size: 24px;
+}
+
+.form__inner a{
+	margin-top: 35px;
+}
+
+.input{
+	width: 230px;
+	padding: 5px;
+	margin-bottom: 10px;
 }
 
 .top{

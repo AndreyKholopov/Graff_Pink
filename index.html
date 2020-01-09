@@ -12,7 +12,7 @@
 	<link rel="stylesheet" href="css/media.css">
 </head>
 <body>
-	<header class="header">
+		<header class="header">
 		<div class="container">
 			<div class="header__inner">
 
@@ -35,7 +35,7 @@
 						<li><a href="#">About Us</a></li>
 						<li><a href="#">Services</a></li>
 						<li><a href="#">Contact</a></li>
-						<li><a href="#" class="login__btn"><img src="images/logo_login.png" alt="">Login</a></li>
+						<li><button onclick="show('block')" class="login__btn"><img src="images/logo_login.png" alt="">Login</button></li>
 					</ul>
 
 				</nav>
@@ -272,6 +272,23 @@
 			</div>
 		</div>
 	</footer>
+
+	<div onclick="show('none')" id="gray"></div>
+	<div id="form">
+		<div  onclick="show('none')" class="close-btn">
+			<div class="btn-line"></div>
+			<div class="btn-line"></div>
+		</div>
+		<div class="form__inner">
+			<h3>Login</h3>
+			<form action="index.html" name="login">
+				<input type="email" placeholder="Login Email" name="email" class="input">
+				<input type="password" placeholder="Password" name="pass" class="input">
+				<input type="submit" value="Login" name="log" class="input">
+				<a href="#">Forgot password?</a>
+			</form>
+		</div>
+	</div>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="js/slick.min.js"></script>
